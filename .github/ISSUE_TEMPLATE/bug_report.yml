@@ -1,0 +1,24 @@
+name: Bug report
+description: File a bug report to help improve LynxFlow
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How can we reproduce the issue?
+      description: Steps, OS version, Python version, and whether Ollama is running.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Please avoid pasting private repository contents.
+    validations:
+      required: false

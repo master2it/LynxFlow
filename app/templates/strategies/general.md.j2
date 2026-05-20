@@ -1,0 +1,36 @@
+## Goal
+
+{{ user_goal }}
+
+## Context
+
+- Task type: {{ task_type }}
+- Target AI profile: {{ target_ai }}
+- Frameworks: {{ frameworks }}
+- Languages: {{ languages }}
+- Files mentioned: {{ files_mentioned }}
+- Mode: {{ mode }}
+
+{% if repository_summary %}
+## Repository summary
+
+{{ repository_summary }}
+{% endif %}
+
+## Constraints
+
+{{ constraints }}
+
+{% if error_logs %}
+## Error signals
+
+{{ error_logs }}
+{% endif %}
+
+## Output format
+
+{{ output_format }}
+
+{% include "blocks/output_rules.md.j2" %}
+{% include "blocks/privacy_guardrails.md.j2" %}
+{% include "blocks/validation_checklist.md.j2" %}

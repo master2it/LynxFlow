@@ -1,0 +1,12 @@
+strategy_id: responsive_ui.mvp
+task_type: responsive_ui
+template_version: "1"
+strategy_template: responsive_ui.md.j2
+required_placeholders:
+  - user_goal
+  - task_type
+  - target_ai
+default_output_format: markdown
+required_sections:
+  - layout
+  - breakpoints

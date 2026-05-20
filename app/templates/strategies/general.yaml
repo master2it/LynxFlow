@@ -1,0 +1,12 @@
+strategy_id: general.mvp
+task_type: general
+template_version: "1"
+strategy_template: general.md.j2
+required_placeholders:
+  - user_goal
+  - task_type
+  - target_ai
+default_output_format: markdown
+required_sections:
+  - goal
+  - context

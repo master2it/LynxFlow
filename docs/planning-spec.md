@@ -1,3 +1,11 @@
+# LynxFlow planning specification (archived copy)
+
+This file preserves the original long-form product and architecture README.
+For the maintained architecture summary, see [`architecture.md`](architecture.md).
+For day-to-day contributor setup, see the root [`README.md`](../README.md) and [`CONTRIBUTING.md`](../CONTRIBUTING.md).
+
+---
+
 # LynxFlow
 
 > Local-first desktop prompt engineering for developers, powered by Ollama.

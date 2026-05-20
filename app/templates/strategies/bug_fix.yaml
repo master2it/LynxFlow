@@ -1,0 +1,12 @@
+strategy_id: bug_fix.mvp
+task_type: bug_fix
+template_version: "1"
+strategy_template: bug_fix.md.j2
+required_placeholders:
+  - user_goal
+  - task_type
+  - target_ai
+default_output_format: markdown
+required_sections:
+  - reproduction
+  - diagnosis
